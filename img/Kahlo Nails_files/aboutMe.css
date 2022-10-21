@@ -1,0 +1,30 @@
+
+
+
+.paragraphAboutme{
+    
+    max-width: 80%;
+    padding: 20px 20px;
+    line-height: 1.5;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    border-radius: 5px;
+    text-align: justify;
+    margin:  0 auto;
+}
+.paragraphAboutmeImg{
+    width: 310px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 15px;
+}
+
+.paragraphAboutme2{
+    font-size: 18px;
+}
+
+.paragraphAboutmeImg2{
+    width: 310px;
+    border-radius: 5px;
+    float: right;
+    margin-left: 15px;
+}

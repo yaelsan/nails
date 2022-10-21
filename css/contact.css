@@ -1,0 +1,59 @@
+
+
+/* nav */
+/* .bodyContact{
+    background-image: url(/img/bg2nav.jpg);
+    background-size: cover;
+} */
+.heroContact {
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    max-height: 120px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    color: #fff;
+}
+
+.heroContact::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/bg2nav.jpg);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
+    z-index: -1;
+}
+
+/* main contact */
+.tituloContact{
+    font-size: 32px;
+    color: black;
+    margin-bottom: 20px;
+}
+.subTitleContact{
+    font-size: 20px;
+    font-weight: 600px;
+}
+.subTitleContact2{
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 40px;
+
+}
+
+
+.aboutIcons{
+    /* background-color: #c17f7f; */
+    background-image: url(/img/bg2nav.jpg);
+    border-radius: 20px;
+}
+.about__title{
+    margin-top: 10px;
+}
+hr{
+    margin: 0 40px;
+}

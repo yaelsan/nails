@@ -1,0 +1,164 @@
+ .bodyService{
+    background-image: url(/img/bg2nav.jpg);
+ }
+
+ .service{
+   background-image: url(/img/nails02.jpg );
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center center;
+   background-size: cover;
+   width: 100%;
+   height: 500px;
+   border-radius: 5px;
+   border: 1px solid #c17f7f;
+   margin: 40px 0;
+}
+
+ .serviceTitle{
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    padding-top: 120px;
+ }
+
+ .serviceText{
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 18px;
+    background-color: #c17f7f;
+    opacity: 0.8;
+    border-radius: 5px;
+ }
+
+
+ /* medias queris */
+
+ @media(max-width:700px){
+   .serviceTitle{
+      text-align: center;
+      font-size: 30px;
+      color: #fff;
+      padding-top: 100px;
+      
+   }
+  
+   .serviceText{
+      text-align: center;
+      width: 500px;
+      margin: 0 auto;
+      color: #fff;
+      font-size: 16px;
+      background-color: #c17f7f;
+      opacity: 0.8;
+      border-radius: 5px;
+   }
+ }
+
+ @media(max-width:600px){
+   .serviceTitle{
+      margin: 20px 0;
+      text-align: center;
+      font-size: 30px;
+      color: #fff;
+      padding-top: 50px;
+      
+   }
+  
+   .serviceText{
+      text-align: center;
+      width: 450px;
+      margin: 0 auto;
+      color: #fff;
+      font-size: 16px;
+      background-color: #c17f7f;
+      opacity: 0.8;
+      border-radius: 5px;
+   }
+ }
+ 
+ @media(max-width:500px){
+   .service{
+      width: 100%;
+      height: 600px;
+      border-radius: 5px;
+      border: 1px solid #c17f7f;
+      margin: 40px 0;
+   }
+   .serviceGel{
+      height: 700px;
+   }
+   .serviceMani{
+      width: 100%;
+      height: 450px;
+   }
+   .serviceKap{
+      width: 100%;
+      height: 450px;
+   }
+   .serviceEsc{
+      width: 100%;
+      height: 500px;
+   }
+
+   .serviceTitle{
+      text-align: center;
+      font-size: 30px;
+      color: #fff;
+      padding: auto;
+   }
+   .serviceText{
+      text-align: center;
+      width: auto;
+      color: #fff;
+      font-size: 16px;
+      background-color: #c17f7f;
+      opacity: 0.8;
+      border-radius: 5px;
+   }
+  
+ }
+ @media(max-width:370px){
+   .service{
+      width: 100%;
+      height: 700px;
+      border-radius: 5px;
+      border: 1px solid #c17f7f;
+      margin: 40px 0;
+   }
+   
+   .servicePedi{
+      width: 100%;
+      height: 650px;
+   }
+   .serviceMani{
+      width: 100%;
+      height: 500px;
+   }
+   .serviceKap{
+      width: 100%;
+      height: 500px;
+   }
+   .serviceEsc{
+      width: 100%;
+      height: 550px;
+   }
+
+   .serviceTitle{
+      text-align: center;
+      font-size: 30px;
+      color: #fff;
+      padding: auto;
+   }
+   .serviceText{
+      text-align: center;
+      width: auto;
+      color: #fff;
+      font-size: 16px;
+      background-color: #c17f7f;
+      opacity: 0.8;
+      border-radius: 5px;
+   }
+ }

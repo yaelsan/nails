@@ -1,0 +1,143 @@
+
+
+.paragraphAboutme{
+    background-color: #e9b0b2;
+    max-width: 80%;
+    padding: 20px 20px;
+    line-height: 1.5;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    border-radius: 5px;
+    margin:  60px auto;
+}
+.paragraphAboutmeImg{
+    width: 440px;
+    height: auto;
+    border-radius: 5px;
+    float: left;
+    margin-right: 15px;
+}
+.paragraphAboutmeImg2{
+    width: 380px;
+    height: auto;
+    border-radius: 5px;
+    float: right;
+    margin-right: 15px;
+}
+.paragraphAboutmeImg3{
+    width: 480px;
+    height: auto;
+    border-radius: 5px;
+    float: left;
+    margin-right: 15px;
+}
+
+.paragraphAboutme2{
+    font-size: 18px;
+    color: #fff;
+} 
+
+
+
+@media(max-width : 800px){
+    .paragraphAboutmeImg{
+        width: 380px;
+        height: auto;
+        border-radius: 5px;
+        margin-right: 15px;
+    } 
+    .paragraphAboutmeImg2{
+        width: 280px;
+        height: auto;
+        border-radius: 5px;
+        margin-right: 15px;
+    } 
+    .paragraphAboutmeImg3{
+        width: 360px;
+        height: auto;
+        border-radius: 5px;
+        margin-right: 15px;
+    } 
+    .paragraphAboutme2{
+        font-size: 18px;
+    }
+}
+
+@media(max-width : 700px){
+    .paragraphAboutmeImg{
+        width: 310px;
+        height: auto;
+        border-radius: 5px;
+    }
+    .paragraphAboutmeImg2{
+        width: 260px;
+        height: auto;
+        border-radius: 5px;
+    }
+    .paragraphAboutmeImg3{
+        width: 310px;
+        height: 210px;
+        border-radius: 5px;
+    }
+    .paragraphAboutme2{
+        font-size: 14px;
+        text-align: left;
+    }
+}
+@media(max-width : 600px){
+    .paragraphAboutmeImg{
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    .paragraphAboutmeImg2{
+        width: 260px;
+        height: auto;
+        border-radius: 5px;
+    }
+    .paragraphAboutmeImg3{
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+    .paragraphAboutme2{
+        font-size: 14px;
+        text-align: left;
+    }
+}
+@media(max-width : 510px){
+    .paragraphAboutmeImg{
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    .paragraphAboutmeImg2{
+        width: 180px;
+        height: auto;
+        border-radius: 5px;
+    }
+    .paragraphAboutmeImg3{
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+}
+@media(max-width : 410px){
+    .paragraphAboutmeImg{
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    .paragraphAboutmeImg2{
+        width: 140px;
+        height: auto;
+        border-radius: 5px;
+    }
+    .paragraphAboutmeImg3{
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+}
